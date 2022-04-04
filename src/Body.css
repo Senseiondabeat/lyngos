@@ -1,0 +1,23 @@
+.body {
+    background-color: grey;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.body_header {
+    display: flex;
+    align-self: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.body_mainInput {
+    width: 100%;
+}
+
+.MuiFormControl-root-MuiTextField-root {
+    margin-bottom: 10px;
+}
